@@ -8,7 +8,7 @@ body { background-image: url(images/foto\ fundo.png);
 
 background-size: cover;
 background-position: center;
-
+background-repeat: no-repeat;
 
 
 
@@ -17,9 +17,10 @@ font-size: 15px;
 
 
 height: 100%;
+width: 100%;
 margin: 0;
 padding: 0;
-
+overflow: hidden;
 
 }
 
