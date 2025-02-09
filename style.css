@@ -6,7 +6,8 @@ padding: 0;
 
 body { background-image: url(images/foto\ fundo.png);
 
-background-size: cover;
+background-size: contain;
+background-position: center;
 
 
 
@@ -16,14 +17,14 @@ font-family: sans-serif;}
 img{
     border-radius: 20px;
     width: 213px;
-    height: 284px;
+    height: 213px;
 
     
 }
 
 
 h1{color: rgb(255, 255, 255);
-margin-top: 31px;
+margin-top: 13px;
 margin-bottom: 8px;
 }
 
@@ -31,27 +32,33 @@ p {color: white;}
 
 ul {margin-top: 30px;
 
-margin-bottom: 30px;
+
+margin: 10px;
 
 
 }
 
-li {margin-bottom: 18px;
+li {margin-bottom: 5px;
 list-style: none;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 a {
-    background-color:blue;
-    color: white;
-    padding: 15px;
+    background-color:rgb(236, 205, 146);
+
+    color: rgb(255, 255, 255);
     text-decoration: none;
     display: block;
     border-radius: 5px;
+    padding:5px;
+    width: 100px;
 }
 
 a:hover {
-background-color: white;
-color: blue
+background-color:rgb(250, 249, 247);
+color: rgb(236, 205, 146);
 
 }
 
