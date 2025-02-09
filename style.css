@@ -6,8 +6,9 @@ padding: 0;
 
 body { background-image: url(images/foto\ fundo.png);
 
-background-size: contain;
+background-size: cover;
 background-position: center;
+background-repeat: no-repeat;
 
 
 
