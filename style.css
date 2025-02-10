@@ -27,7 +27,7 @@ height: 100%;
 width: 100%;
 margin: 0;
 padding: 0;
-overflow: hidden;
+
 
 
 
@@ -45,7 +45,7 @@ img{
 
 
 h1{color: rgb(255, 255, 255);
-margin-top: 31px;
+margin-top: 10px;
 margin-bottom: 8px;
 }
 
@@ -60,7 +60,7 @@ margin: 10px;
 }
 
 
-li {margin-bottom: 18px;
+li {margin-bottom: 7px;
 list-style: none;
 display: flex;
 justify-content: center;
